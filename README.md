@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Team Profile Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project allows a manager to create a team profile, generating a webpage that displays their team's basic information. This makes it easier for the user to access their team members' emails and GitHub profiles.
 
-## Available Scripts
+## User Story
 
-In the project directory, you can run:
+As a manager, I want to generate a webpage that displays my team's basic information, so that I have quick access to their emails and GitHub profiles.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User Input: Allows the manager to input the basic information of team members, such as their names, roles, employee IDs, email addresses, GitHub profiles, and image URLs.
+- HTML Output: Generates a webpage that displays the team's basic information in a visually appealing format.
+- Employee Cards: Displays each team member's information in individual cards.
+- Email and GitHub Links: Provides links to the team members' email addresses and GitHub profiles for easy access.
+- Image: Displays an image for each team member if the manager provides an image URL.
+- Deletion: Allows the manager to delete team members from the profile.
+- Local Storage: Stores the team members' data in the browser's local storage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Mock-Up
 
-### `npm test`
+The following image shows a mock-up of the generated HTML’s appearance and functionality:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Insert mock-up image here]
 
-### `npm run build`
+## Installation and Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository.
+2. Navigate to the project directory in the terminal.
+3. Run `npm install` to install the dependencies.
+4. Run `npm start` to start the application.
+5. Open your browser and go to `http://localhost:3000`.
+6. Input the details of a team member and click on 'Add' to add the team member to the profile.
+7. Click on 'Delete' in a team member's card to remove the team member from the profile.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployed Link
+<a href="https://team-profile-generator-ten.vercel.app" target="_blank">Click Here</a>
